@@ -1,0 +1,6 @@
+---
+- name: Ensure deluge requierement installation
+  hosts: all
+
+  roles:
+    - role_deluge_req

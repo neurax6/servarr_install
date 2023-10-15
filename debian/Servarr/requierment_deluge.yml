@@ -4,77 +4,77 @@
 
   tasks:
   - name: latest Python version installed
-    dnf:
+    apt:
       name: python
       state: latest
       
   - name: latest Python-twisted version installed
-    dnf:
+    apt:
       name: python-twisted
       state: latest
 
   - name: latest python-openssl version installed
-    dnf:
+    apt:
       name: python-openssl
       state: latest
       
   - name: latest python-setuptools version installed
-    dnf:
+    apt:
       name: python-setuptools
       state: latest
 
   - name: latest intltool version installed
-    dnf:
+    apt:
       name: intltool
       state: latest
 
   - name: latest python-xdg version installed
-    dnf:
+    apt:
       name: python-xdg
       state: latest
 
   - name: latest python-chardet version installed
-    dnf:
+    apt:
       name: python-chardet
       state: latest
 
   - name: latest geoip-database version installed
-    dnf:
+    apt:
       name: geoip-database
       state: latest
 
   - name: latest python-libtorrent version installed
-    dnf:
+    apt:
       name: python-libtorrent
       state: latest
 
   - name: latest python-notify version installed
-    dnf:
+    apt:
       name: python-notify
       state: latest
 
   - name: latest python-pygame version installed
-    dnf:
+    apt:
       name: python-pygame
       state: latest
 
   - name: latest python-glade2 version installed
-    dnf:
+    apt:
       name: python-glade2
       state: latest
 
   - name: latest librsvg2-common version installed
-    dnf:
+    apt:
       name: librsvg2-common
       state: latest
 
   - name: latest xdg-utils version installed
-    dnf:
+    apt:
       name: xdg-utils
       state: latest
 
   - name: latest python-mako version installed
-    dnf:
+    apt:
       name: python-mako
       state: latest
     

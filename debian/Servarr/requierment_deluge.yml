@@ -5,7 +5,7 @@
   tasks:
   - name: latest Python version installed
     apt:
-      name: python
+      name: python3
       state: latest
       
   - name: latest Python-twisted version installed

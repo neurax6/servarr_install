@@ -37,3 +37,9 @@
     apt:
       name: make
       state: latest
+
+  - name: latest qmake version installed
+    apt:
+      name: qmake
+      state: latest
+

@@ -38,8 +38,8 @@
       name: make
       state: latest
 
-  - name: latest qt5-make version installed
+  - name: latest qmake6 version installed
     apt:
-      name: qt5-qmake
+      name:  qmake6
       state: latest
 

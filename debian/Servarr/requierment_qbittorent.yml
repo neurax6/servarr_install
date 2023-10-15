@@ -1,0 +1,39 @@
+---
+- name: qbittorrent requierement installed
+  hosts: all
+
+  tasks:
+  - name: latest libboost version installed
+    apt:
+      name: libboost-all-dev
+      state: latest
+
+  - name: latest libtorrent-rasterbar-dev version installed
+    apt:
+      name: libtorrent-rasterbar-dev
+      state: latest
+    
+  - name: latest openssl version installed
+    apt:
+      name: openssl
+      state: latest
+
+  - name: latest pkg-config version installed
+    apt:
+      name: pkg-config
+      state: latest
+
+  - name: latest python3 version installed
+    apt:
+      name: python3
+      state: latest
+
+  - name: latest gcc version installed
+    apt:
+      name: gcc
+      state: latest
+
+  - name: latest make version installed
+    apt:
+      name: make
+      state: latest

@@ -28,12 +28,12 @@
       name: intltool
       state: latest
 
-  - name: latest python-xdg version installed
+  - name: latest python3-xdg version installed
     apt:
       name: python3-xdg
       state: latest
 
-  - name: latest python-chardet version installed
+  - name: latest python3-chardet version installed
     apt:
       name: python3-chardet
       state: latest
@@ -43,22 +43,22 @@
       name: geoip-database
       state: latest
 
-  - name: latest python-libtorrent version installed
+  - name: latest python3-libtorrent version installed
     apt:
       name: python3-libtorrent
       state: latest
 
-  - name: latest python-notify version installed
+  - name: latest python3-notify2 version installed
     apt:
-      name: python3-notify
+      name: python3-notify2
       state: latest
 
-  - name: latest python-pygame version installed
+  - name: latest python3-pygame version installed
     apt:
       name: python3-pygame
       state: latest
 
-  - name: latest python-glade2 version installed
+  - name: latest python3-glade2 version installed
     apt:
       name: python3-glade2
       state: latest
@@ -73,7 +73,7 @@
       name: xdg-utils
       state: latest
 
-  - name: latest python-mako version installed
+  - name: latest python3-mako version installed
     apt:
       name: python3-mako
       state: latest

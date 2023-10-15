@@ -5,22 +5,22 @@
   tasks:
   - name: latest Python version installed
     apt:
-      name: python
+      name: python3
       state: latest
       
-  - name: latest Python-twisted version installed
+  - name: latest Python3-twisted version installed
     apt:
-      name: python-twisted
+      name: python3-twisted
       state: latest
 
-  - name: latest python-openssl version installed
+  - name: latest python3-openssl version installed
     apt:
-      name: python-openssl
+      name: python3-openssl
       state: latest
       
-  - name: latest python-setuptools version installed
+  - name: latest python3-setuptools version installed
     apt:
-      name: python-setuptools
+      name: python3-setuptools
       state: latest
 
   - name: latest intltool version installed
@@ -28,14 +28,14 @@
       name: intltool
       state: latest
 
-  - name: latest python-xdg version installed
+  - name: latest python3-xdg version installed
     apt:
-      name: python-xdg
+      name: python3-xdg
       state: latest
 
-  - name: latest python-chardet version installed
+  - name: latest python3-chardet version installed
     apt:
-      name: python-chardet
+      name: python3-chardet
       state: latest
 
   - name: latest geoip-database version installed
@@ -43,24 +43,24 @@
       name: geoip-database
       state: latest
 
-  - name: latest python-libtorrent version installed
+  - name: latest python3-libtorrent version installed
     apt:
-      name: python-libtorrent
+      name: python3-libtorrent
       state: latest
 
-  - name: latest python-notify version installed
+  - name: latest python3-notify2 version installed
     apt:
-      name: python-notify
+      name: python3-notify2
       state: latest
 
-  - name: latest python-pygame version installed
+  - name: latest python3-pygame version installed
     apt:
-      name: python-pygame
+      name: python3-pygame
       state: latest
 
-  - name: latest python-glade2 version installed
+  - name: latest python3-glade2 version installed
     apt:
-      name: python-glade2
+      name: python3-glade2
       state: latest
 
   - name: latest librsvg2-common version installed
@@ -73,8 +73,8 @@
       name: xdg-utils
       state: latest
 
-  - name: latest python-mako version installed
+  - name: latest python3-mako version installed
     apt:
-      name: python-mako
+      name: python3-mako
       state: latest
     
